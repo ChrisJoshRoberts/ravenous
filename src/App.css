@@ -1,17 +1,27 @@
+#root{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
 .App {
   text-align: center;
 }
 
 .business-img {
   width: 100%;
-  height: 34vh;
+  height: 24vh;
   object-fit: cover;
   border-radius: 4px;  
+  transition: all 0.2s ease;
+
 }
+.business-img:hover {
+  opacity: 0.5;
+}  
 
 .business-cont {
   margin: 16px;
-  width: 300px;
+  width: 344px;
 
 
 }
@@ -19,7 +29,7 @@
 .info-container {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  width: 340px;
   height: 100px;
 }
 
