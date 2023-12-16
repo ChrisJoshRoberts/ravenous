@@ -12,21 +12,22 @@
   height: 24vh;
   object-fit: cover;
   border-radius: 4px;  
-  transition: all 0.2s ease;
+
 
 }
-.business-img:hover {
+.business-cont:hover {
   opacity: 0.5;
 }  
 
 .business-cont {
   margin: 16px;
   width: 344px;
-
+  transition: all 0.2s ease;
 
 }
 
 .info-container {
+  margin-top: 8px;
   display: flex;
   justify-content: space-between;
   width: 340px;
@@ -39,12 +40,16 @@
 }
 
 h1 {
-  margin: 0 auto;
+  color: crimson;
+margin: 8px 0px ;
+
 }
 
 .address {
   text-align: left;
-  margin: auto 0;
+}
+p {
+  margin: 8px auto;
 }
 
 .App-logo {
