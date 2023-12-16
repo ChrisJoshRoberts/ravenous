@@ -10,7 +10,7 @@ const business = {
     zipcode: 7935,
     category: 'Italian',
     rating: 4.5,
-    reviewCount: 90
+    reviewCount:90
   }
   function Business() {
     return (
@@ -26,8 +26,8 @@ const business = {
             </div>
             <div className='rating-reviews'>
                 <p>{business.category}</p>
-              <p>{business.rating} stars</p>
-              <p>{business.reviewCount}</p>
+              <p className="rating">{business.rating} stars</p>
+              <p className="reviews">{business.reviewCount} reviews <span>&rarr;</span></p>
             </div>
           </div>
       </div>

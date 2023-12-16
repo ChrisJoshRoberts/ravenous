@@ -13,16 +13,43 @@
   object-fit: cover;
   border-radius: 4px;  
 
+}
+
+.reviews {
+  color: crimson;
+  padding-top: 8px;
+  transition: all 0.2s ease;
+}
+.reviews:hover {
+  color: rgb(128, 10, 34);
+  cursor: pointer;
 
 }
+.rating {
+  background-color: rgb(21, 199, 21);
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 8px;
+}
+
 .business-cont:hover {
-  opacity: 0.5;
+  border: 0.5px solid crimson;
+  border-radius: 8px;
+  padding :24px;
+  box-shadow: 8px 9px 16px 0 rgba(220,20,60, 0.1);
+
 }  
-/* adding a test comment*/
+
 .business-cont {
   margin: 16px;
   width: 344px;
   transition: all 0.2s ease;
+  padding: 20px;
+  border-radius:  8px;
+  background-color: white;
+  
 
 }
 
@@ -37,7 +64,9 @@
 .rating-reviews {
   text-align: right;
   font-weight: bolder;
+
 }
+
 
 h1 {
   color: crimson;
@@ -47,8 +76,9 @@ margin: 8px 0px ;
 
 .address {
   text-align: left;
+  opacity: 0.7;
 }
-p {
+  p {
   margin: 8px auto;
 }
 
