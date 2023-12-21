@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Business from './Business';
+import BusinessList from './BusinessList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Business />
+    <BusinessList />
     
   </React.StrictMode>
 );
