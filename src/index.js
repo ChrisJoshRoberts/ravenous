@@ -10,6 +10,7 @@ import YelpSearch from './searchBar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h2>What type of food are you looking for?</h2>
     <YelpSearch />
     <BusinessList />
     

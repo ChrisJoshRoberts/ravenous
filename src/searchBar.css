@@ -8,16 +8,42 @@
     margin: 16px;
     padding: 16px;
     width: 80%;
+    border: none;
+    background-color: rgba(237, 237, 237, 0.592);
+    box-shadow: 7px 10px 52px -26px rgba(199,199,199,1);
+    border-radius: 8px;
+    font-weight: bold;
 }
+.search:focus {
+    outline: none;
+    background-color: rgba(211, 211, 211, 0.807);
+   
+    
+}
+
 .filter-btn{
+    text-align: center;
     padding: 8px 24px;
     background-color: crimson;
-    margin: 24px 8px 32px 8px;
+    margin: 24px 8px -16px 8px;
     border-radius: 8px;
     font-weight: bold;
     color: white;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.198);
+    transition: all 0.2s ease;
     
 }
+.filter-btn:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.198);
+    background-color: rgb(161, 11, 41);
+    cursor: pointer;
+}
+.filter-btn:active {
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+    cursor: pointer;
+}
+
 .filter {
     display: flex;
     justify-content: center;
@@ -25,6 +51,7 @@
 .outer-wrapper{
     display: flex;
     flex-direction: column;
+    padding: 16px;
 }
 button {
     width: 20%;
@@ -35,4 +62,16 @@ button {
     font-weight: bold;
     color: white;
     text-transform: uppercase;
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.198);
+}
+button:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.198);
+    background-color: rgb(161, 11, 41);
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+    cursor: pointer;
 }
