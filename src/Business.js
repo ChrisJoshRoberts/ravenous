@@ -1,17 +1,6 @@
 import React from "react";
 import './App.css';
 
-const business = {
-    image: 'https://plus.unsplash.com/premium_photo-1675451537771-0dd5b06b3985?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'The Pizza Shed', 
-    address: '242 Lower Main Rd',
-    city: 'Cape Town', 
-    state: 'Western Cape',
-    zipcode: 7935,
-    category: 'Italian',
-    rating: 4.5,
-    reviewCount:90
-  }
   function Business({business}) {
     return (
       <div className="business-cont">

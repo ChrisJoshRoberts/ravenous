@@ -1,6 +1,5 @@
 import React , {useState} from "react";
 import Business from "./Business";
-import { business } from "./Business";
 
 const businesses = [
     {
@@ -24,7 +23,18 @@ zipcode: 7935,
 category: 'Bakery',
 rating: 4.5,
 reviewCount:100
-}
+},
+{
+    image: 'https://insideguide.co.za/cape-town/app/uploads/2023/06/vadivelu-restaurant-curry.webp',
+    name: 'Vadivelu', 
+    address: '151 Kloof St',
+    city: 'Cape Town', 
+    state: 'Western Cape',
+    zipcode: 7935,
+    category: 'Indian',
+    rating: 5,
+    reviewCount:35
+    }
 ];
 
  function BusinessList() {

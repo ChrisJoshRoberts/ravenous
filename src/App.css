@@ -1,7 +1,9 @@
 #root{
   display: flex;
-  justify-content: center;
   margin-top: 16px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
 }
 .App {
   text-align: center;
@@ -41,7 +43,7 @@
 .business-cont:hover {
   border: 0.5px solid crimson;
   border-radius: 8px;
-  padding :24px;
+  padding :22px;
   box-shadow: 8px 9px 16px 0 rgba(220,20,60, 0.1);
 
 }  
@@ -50,7 +52,7 @@
   margin: 16px;
   width: 344px;
   transition: all 0.2s ease;
-  padding: 20px;
+  padding: 22px;
   border-radius:  8px;
   background-color: white;
   

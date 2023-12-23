@@ -1,0 +1,38 @@
+.search-container {
+    display: flex;
+    align-items: center;
+
+}
+.search {
+    height: 5%;
+    margin: 16px;
+    padding: 16px;
+    width: 80%;
+}
+.filter-btn{
+    padding: 8px 24px;
+    background-color: crimson;
+    margin: 24px 8px 32px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    
+}
+.filter {
+    display: flex;
+    justify-content: center;
+}
+.outer-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 20%;
+    height: 50px;
+    background-color: crimson;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
