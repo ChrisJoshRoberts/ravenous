@@ -12,10 +12,10 @@ const business = {
     rating: 4.5,
     reviewCount:90
   }
-  function Business() {
+  function Business({business}) {
     return (
       <div className="business-cont">
-        <img  className='business-img' src= {business.image} />
+        <img  className='business-img' src= {business.image} alt={business.name} />
         <h1>{business.name}</h1>
           <div className='info-container'>
             <div className='address'>

@@ -14,7 +14,7 @@
   border-radius: 4px;  
 
 }
-.list-container {
+.business-list {
   display: flex;
   flex-wrap: wrap;
 }
